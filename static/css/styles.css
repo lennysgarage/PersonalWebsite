@@ -1,11 +1,24 @@
-h1 {
-  color: red;
+h1.header-title {
+  color: white;
+  font-size: 600%;
+  text-align: center;
 }
 
-p {
-  color: green;
+.jumbotron {
+	background-image: url("../media/background.png");
+	background-size: cover;
+	height: 100%;
 }
 
-li {
-  list-style-type: "\1F44D";
+.navbar {
+	font-size: 150%;
+}
+
+.tag-header {
+	color: mediumslateblue;
+	font-size: 400%;
+}
+
+h1.name {
+	color: black;
 }
