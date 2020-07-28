@@ -1,27 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>Jonathan Marcantonio Personal Website</title>
     <meta charset="utf-8">
-    <title>Getting started with CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/styles.css">
 
 </head>
 
 <body>
 
-    <h1>I am a level one heading</h1>
+    <!-- ********************************** -->
+    <!-- Navbar -->
+    <!-- ********************************** -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <a class="navbar-brand">
+            <img src="/static/media/logo.png">
+        </a>
 
-    <p>This is a paragraph of text. In the text is a <span>span element</span>
-and also a <a href="http://example.com">link</a>.</p>
+        <u1 class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link navbar-dark" href="/about/">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-dark" href="/experience/">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-dark" href="/projects/">Projects</a>
+            </li>
+        </u1>
+    </nav>
 
-    <p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+    <!-- ********************************** -->
+    <!-- Jumbotron -->
+    <!-- ********************************** -->
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1 class="header-title">Hey there I'm</h1>
+            <h1 class="header-title">Jonathan Marcantonio</h1>
+        </div>
+    </div>
 
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item <em>three</em></li>
-    </ul>
+    <!-- ********************************** -->
+    <!-- About -->
+    <!-- ********************************** -->
+    <div class="about">
+        <div class="container-fluid">
+            <div class="aboutmepicture">
+                <img style="float:right" class="image-responsive" src="/static/media/aboutme.jpg">
+            </div>
+            <div class="col-sm-6 about-me text-center">
+                <div class="tag-header">HELLO, MY NAME IS</div>
+                <br>
+                <h1 class="name-title" id="name">Jonathan Marcantonio</h1>
+                <br>
+                <div class="about-text">
+                    <p>I am a Computer Science student at the University of Toronto Missisauga. </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- ********************************** -->
+    <!-- Experience -->
+    <!-- ********************************** -->
+
+
+    <!-- ********************************** -->
+    <!-- Contact -->
+    <!-- ********************************** -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-
 </html>
