@@ -1,18 +1,22 @@
 html,body
 {
-    width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    width: auto;
 }
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px;
-	width: 100%;
+	width: auto;
 }
 
+/* Navigation Bar */
+.navbar {
+	font-size: 150%;
+}
 
 
 /* Jumbotron and Header */
@@ -21,7 +25,7 @@ h1.header-title {
   font-weight: 500;
   text-align: center;
   line-height: 1.2;
-  font-size: 600%;
+  font-size: 100px;
 }
 
 .jumbotron {
@@ -35,17 +39,12 @@ h1.header-title {
 }
 
 
-/* Navigation Bar */
-.navbar {
-	font-size: 150%;
-}
-
-
 /* About Me */
 
-.col-md-6 {
+.col-md-6.about-me.text-center {
 	position: relative;
-	width: 100%;
+	margin: 0px auto;
+	text-align: center;
 }
 
 .tag-header {
@@ -56,16 +55,10 @@ h1.header-title {
 	font-size: 350%;
 }
 
-h1.name {
-	color: black;
-}
 .about-text {
 	margin-top: 8px;
 }
 
-.tag-black {
-	font-size: 350%;
-}
 
 .about {
 	height: 600px;
@@ -80,7 +73,25 @@ h1.name {
 	color: white;
 	display: flex;
 	flex-wrap: wrap;
-	height: 250px;
+	height: 300px;
+}
+
+.tag-black {
+	font-size: 350%;
+
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+}
+
+#expbtn {
+	margin-left: 130px;
 }
 
 /* Contact */
