@@ -1,24 +1,95 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.container-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+
+
+/* Jumbotron and Header */
+
 h1.header-title {
-  color: white;
-  font-size: 600%;
+  font-weight: 500;
   text-align: center;
+  line-height: 1.2;
+  font-size: 600%;
 }
 
 .jumbotron {
-	background-image: url("../media/background.png");
+	background-image: url("../media/background.jpg");
 	background-size: cover;
-	height: 100%;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
+
+/* Navigation Bar */
 .navbar {
 	font-size: 150%;
 }
 
+
+/* About Me */
+
+.col-md-6 {
+	position: relative;
+	width: 100%;
+}
+
 .tag-header {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
 	color: mediumslateblue;
-	font-size: 400%;
+	font-size: 350%;
 }
 
 h1.name {
 	color: black;
 }
+.about-text {
+	margin-top: 8px;
+}
+
+.tag-black {
+	font-size: 350%;
+}
+
+.about {
+	height: 600px;
+}
+
+
+/* Experience */
+.experience {
+	padding-top: 50px;
+	padding-bottom: 200px;
+	background-color: lightslategray;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	height: 250px;
+}
+
+/* Contact */
+.contact {
+	padding-top: 50px;
+	padding-bottom: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 250px;
+}
+
+

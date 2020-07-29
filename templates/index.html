@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <!-- ********************************** -->
     <!-- Navbar -->
     <!-- ********************************** -->
@@ -35,7 +34,7 @@
     <!-- ********************************** -->
     <!-- Jumbotron -->
     <!-- ********************************** -->
-    <div class="jumbotron">
+    <div class="jumbotron" style="margin-bottom:0">
         <div class="container-fluid">
             <h1 class="header-title">Hey there I'm</h1>
             <h1 class="header-title">Jonathan Marcantonio</h1>
@@ -45,18 +44,18 @@
     <!-- ********************************** -->
     <!-- About -->
     <!-- ********************************** -->
-    <div class="about">
-        <div class="container-fluid">
-            <div class="aboutmepicture">
-                <img style="float:right" class="image-responsive" src="/static/media/aboutme.jpg">
+    <div class="container-fluid" id="about">
+        <div class="row">
+            <div class="about-me-picture">
+                <img style="float:right; height:600px"  src="/static/media/aboutme.jpg">
             </div>
-            <div class="col-sm-6 about-me text-center">
-                <div class="tag-header">HELLO, MY NAME IS</div>
-                <br>
-                <h1 class="name-title" id="name">Jonathan Marcantonio</h1>
-                <br>
-                <div class="about-text">
-                    <p>I am a Computer Science student at the University of Toronto Missisauga. </p>
+                <div class="col-md-6 about-me text-center">
+                    <div class="tag-header">HELLO, MY NAME IS</div>
+                    <br>
+                    <h1 class="name-title" id="name">Jonathan Marcantonio</h1>
+                    <br>
+                    <div class="about-text">
+                        <p>I am a Computer Science student at the University of Toronto Missisauga. </p>
                 </div>
             </div>
         </div>
@@ -65,11 +64,21 @@
     <!-- ********************************** -->
     <!-- Experience -->
     <!-- ********************************** -->
-
+    <div class="experience">
+        <div class="container-fluid">
+            <div class="tag-black text-center" style="color:white">MY EXPERIENCE</div>
+            <p class="text-center">Come and see my experience here.</p>
+        </div>
+    </div>
 
     <!-- ********************************** -->
     <!-- Contact -->
     <!-- ********************************** -->
+    <div class="contact">
+        <div class="container-fluid">
+            <div class="tag-header text-center">CONTACT</div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
